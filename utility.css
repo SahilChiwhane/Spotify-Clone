@@ -43,3 +43,28 @@
     color: grey;
     font-size: 14px;
 }
+
+
+
+
+
+/* Width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #333; /* Dark grey */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #666; /* Grey */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #999; /* Light grey */
+  }
+  
